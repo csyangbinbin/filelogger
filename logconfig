@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log_config>
+
+<!-- log_dst 日志输出的目的位置,console--只输出至控制台,file--只输出至文件,both--控制台和文件都输出 -->
+<log_dst>both</log_dst>
+
+<!-- 控制台输出的日志级别 -->
+<console_level>debug</console_level>
+
+<!-- 日志文件的输出级别 -->
+<file_level>debug</file_level>
+
+<!-- 日志文件的存储目录 -->
+<log_dir>applog</log_dir>
+
+<!-- 日志文件的basename-->
+<basename>tinynet_v2_log</basename>
+</log_config>
